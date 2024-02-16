@@ -4,22 +4,21 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import Link from 'next/link';
 
 export default function Footer() {
-    const currentYear = new Date().getFullYear()
-    const githubIcon = <FontAwesomeIcon icon={faGithub} />
-    const linkedinIcon = <FontAwesomeIcon icon={faLinkedin} />
-    const emailIcon = <FontAwesomeIcon icon={faEnvelope} />
+    const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-gray-200 text-center py-4">
+        <footer className="relative text-center py-4 mt-8">
+            <div className="absolute top-0 left-0 w-full" style={{ height: '1px', background: 'linear-gradient(to right, transparent, white, transparent)' }}></div>
+
             <div className="flex justify-center space-x-6">
-                <Link href="https://github.com/yourGithubProfile" className="text-black hover:text-gray-600">
-                    {githubIcon}
+                <Link href="https://github.com/yourGithubProfile" className="text-black dark:text-white hover:text-gray-600">
+                    <FontAwesomeIcon icon={faGithub} />
                 </Link>
                 <Link href="https://www.linkedin.com/in/yourLinkedInProfile" className="text-blue-700 hover:text-blue-800">
-                    {linkedinIcon}
+                    <FontAwesomeIcon icon={faLinkedin} />
                 </Link>
                 <Link href="mailto:yourEmail@example.com" className="text-red-600 hover:text-red-700">
-                    {emailIcon}
+                    <FontAwesomeIcon icon={faEnvelope} />
                 </Link>
             </div>
 
