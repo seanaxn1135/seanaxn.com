@@ -11,10 +11,10 @@ export default function Footer() {
             <div className="absolute top-0 left-0 w-full" style={{ height: '1px', background: 'linear-gradient(to right, transparent, white, transparent)' }}></div>
 
             <div className="flex justify-center space-x-6">
-                <Link href="https://github.com/yourGithubProfile" className="text-black dark:text-white hover:text-gray-600">
+                <Link href="https://github.com/yourGithubProfile" className="text-black dark:text-white hover:text-gray-500">
                     <FontAwesomeIcon icon={faGithub} />
                 </Link>
-                <Link href="https://www.linkedin.com/in/yourLinkedInProfile" className="text-blue-700 hover:text-blue-800">
+                <Link href="https://www.linkedin.com/in/yourLinkedInProfile" className="text-blue-600 hover:text-blue-700">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </Link>
                 <Link href="mailto:yourEmail@example.com" className="text-red-600 hover:text-red-700">
