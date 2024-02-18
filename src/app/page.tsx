@@ -16,9 +16,9 @@ export default function Page() {
     <section>
       <h1 className="font-medium text-2xl mb-8 tracking-tighter">hey, I'm Sean 👋 </h1>
       <p className="prose dark:prose-invert">{`I'm a fullstack developer, avid `}
-        <Link target="_blank" href="https://steamcommunity.com/id/ribbitrabbid/">gamer</Link>
+        <Link target="_blank" href="https://steamcommunity.com/id/ribbitrabbid/" rel="noopener noreferrer">gamer</Link>
         {` and an aspiring blog writer. I currently work as a Consultant Developer for `}
-        <Link href="https://www.thoughtworks.com/">ThoughtWorks</Link>{` , where I collaborate with brilliant minds to deliver impactful digital products.`}</p>
+        <Link target="_blank" href="https://www.thoughtworks.com/" rel="noopener noreferrer">ThoughtWorks</Link>{` , where I collaborate with brilliant minds to deliver impactful digital products.`}</p>
     </section>
   )
 }
