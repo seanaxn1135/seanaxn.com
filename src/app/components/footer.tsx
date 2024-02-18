@@ -28,8 +28,7 @@ export default function Footer() {
 
     return (
         <footer className="relative text-center py-4 mt-8">
-            <div className="absolute top-0 left-0 w-full" style={{ height: '1px', background: 'linear-gradient(to right, transparent, white, transparent)' }}></div>
-
+            <hr className="my-4 border-neutral-100 dark:border-neutral-800" />
             <div className="flex justify-center space-x-6">
                 {socialLinks.map((link) => (
                     <Link key={link.label} href={link.href} className={link.color} aria-label={link.label} target="_blank"
