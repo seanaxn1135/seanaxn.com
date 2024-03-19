@@ -37,14 +37,14 @@ export default function Page() {
           </p>
           <ul className="list-disc ml-5 mb-4">
             <li className="pb-6">
-              <strong>To empower new engineers 💪</strong> - The tech world is vast and sometimes intimidating. I believe in nurturing a new generation of engineers who are equipped to tackle tomorrow's challenges.
+              <strong>To empower new engineers 💪</strong> - The tech world is vast and sometimes intimidating. I believe in nurturing a new generation of engineers equipped to tackle tomorrow's challenges.
             </li>
             <li className="pb-6">
               <strong>Because I've been there 🧑‍🏫</strong> - The best teachers often aren't the distant experts but those who've recently walked the path themselves. Last year's learner is this year's guide, and I aim to be that bridge for others.
 
             </li>
             <li>
-              <strong>To refine my mastery 💭</strong> - Simplifying complex ideas reinforces my comprehension and allows me to share practical insights, affirming that true understanding lies in the ability to teach others.
+              <strong>To refine my mastery 💭</strong> - Simplifying complex ideas reinforces my comprehension and allows me to share practical insights, affirming that proper understanding lies in the ability to teach others.
             </li>
           </ul>
           <blockquote className="prose prose-neutral dark:prose-invert">
