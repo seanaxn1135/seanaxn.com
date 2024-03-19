@@ -5,3 +5,7 @@
 html {
   min-width: 360px;
 }
+
+.prose a {
+  @apply transition-all text-neutral-600 dark:text-neutral-200 hover:text-neutral-500 dark:hover:text-neutral-100 decoration-neutral-400 dark:decoration-neutral-600 underline-offset-2 decoration-[0.1em];
+}
